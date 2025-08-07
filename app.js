@@ -1,8 +1,8 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-const nombreInput = document.getElementById('amigo');
-const agregarBtn = document.querySelector('.button-add');
+const nombreInput = document.getElementById('nombreInput'); 
+const agregarBtn = document.getElementById('agregarBtn');   
 const listaAmigos = document.getElementById('listaAmigos');
-const sortearBtn = document.querySelector('.button-draw');
+const sortearBtn = document.getElementById('sortearBtn');   
 const resultado = document.getElementById('resultado');
 
 const amigos = [];
@@ -36,3 +36,4 @@ function actualizarLista() {
   });
 
 }
+
